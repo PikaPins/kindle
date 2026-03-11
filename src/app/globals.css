@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --kindle-bg: #F4F4F4;
+  --kindle-text: #1A1A1A;
+  --kindle-border: #2C2C2C;
+  --kindle-accent: #FF9900;
+  --kindle-gray: #666666;
+}
+
+[data-theme="dark"] {
+  --kindle-bg: #1A1A1A;
+  --kindle-text: #E8E8E8;
+  --kindle-border: #FFFFFF;
+  --kindle-gray: #999999;
+}
+
+[data-theme="sepia"] {
+  --kindle-bg: #F4ECD8;
+  --kindle-text: #5B4636;
+  --kindle-border: #3D2B1F;
+  --kindle-gray: #7D6B5D;
+}
+
+@theme inline {
+  --color-kindle-bg: var(--kindle-bg);
+  --color-kindle-text: var(--kindle-text);
+  --color-kindle-border: var(--kindle-border);
+  --color-kindle-accent: var(--kindle-accent);
+  --color-kindle-gray: var(--kindle-gray);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--kindle-bg);
+  color: var(--kindle-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.font-serif {
+  font-family: 'Literata', 'Georgia', serif;
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
