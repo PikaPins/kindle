@@ -1,3 +1,0 @@
-:HL["/kindle/_next/static/chunks/77aa7a89788ce197.css","style"]
-:HL["https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,700;1,7..72,400&display=swap","style"]
-0:{"buildId":"jmrks6WRibrTsCr77AAAR","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"library","paramType":null,"paramKey":"library","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
