@@ -12,10 +12,10 @@
     "epubjs": "^0.3.93",
     "framer-motion": "^12.35.2",
     "idb": "^8.0.3",
-    "next": "16.1.6",
+    "next": "15.1.6",
     "pdfjs-dist": "^5.5.207",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "zustand": "^5.0.11"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "15.1.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
